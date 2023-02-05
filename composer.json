@@ -1,12 +1,12 @@
 {
-  "name": "kevinquinnyo/php-raid",
+  "name": "behzadsp/php-raid",
   "description": "RAID (redundant array of disks) calculation utility.",
   "type": "library",
-  "homepage": "https://github.com/kevinquinnyo/php-raid",
+  "homepage": "https://github.com/behzadsp/php-raid",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/kevinquinnyo/php-raid/issues",
-    "wiki": "https://github.com/kevinquinnyo/php-raid/wiki"
+    "issues": "https://github.com/behzadsp/php-raid/issues",
+    "wiki": "https://github.com/behzadsp/php-raid/wiki"
   },
   "require": {
     "php": ">= 7.0",

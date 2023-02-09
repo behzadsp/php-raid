@@ -1,12 +1,12 @@
 <?php
-namespace kevinquinnyo\Raid;
+namespace behzadsp\Raid;
 
 use InvalidArgumentException;
-use kevinquinnyo\Raid\Raid\RaidFive;
-use kevinquinnyo\Raid\Raid\RaidOne;
-use kevinquinnyo\Raid\Raid\RaidSix;
-use kevinquinnyo\Raid\Raid\RaidTen;
-use kevinquinnyo\Raid\Raid\RaidZero;
+use behzadsp\Raid\Raid\RaidFive;
+use behzadsp\Raid\Raid\RaidOne;
+use behzadsp\Raid\Raid\RaidSix;
+use behzadsp\Raid\Raid\RaidTen;
+use behzadsp\Raid\Raid\RaidZero;
 
 class RaidFactory
 {
@@ -14,9 +14,9 @@ class RaidFactory
      * Create
      *
      * @param int $level The RAID level to create.
-     * @param mixed $drives A single \kevinquinnyo\Raid\Drive or array of Drive objects.
+     * @param mixed $drives A single \behzadsp\Raid\Drive or array of Drive objects.
      * @throws \InvalidArgumentException If the level provided is not supported by this library.
-     * @return \kevinquinnyo\Raid\AbstractRaid Initialized Raid object.
+     * @return \behzadsp\Raid\AbstractRaid Initialized Raid object.
      */
     public function create(int $level, $drives)
     {

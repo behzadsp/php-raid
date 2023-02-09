@@ -1,10 +1,10 @@
 <?php
-namespace kevinquinnyo\Raid\Test;
+namespace behzadsp\Raid\Test;
 
 use \PHPUnit\Framework\TestCase;
-use \kevinquinnyo\Raid\Drive;
-use \kevinquinnyo\Raid\AbstractRaid;
-use \kevinquinnyo\Raid\Raid\RaidFive;
+use \behzadsp\Raid\Drive;
+use \behzadsp\Raid\AbstractRaid;
+use \behzadsp\Raid\Raid\RaidFive;
 use ReflectionClass;
 use RuntimeException;
 
@@ -13,7 +13,7 @@ class AbstractRaidTest extends TestCase
     /**
      * Sets a protected property on a given object via reflection
      *
-     * @param \kevinquinnyo\Raid\AbstractRaid $object Raid class in which protected value is being modified.
+     * @param \behzadsp\Raid\AbstractRaid $object Raid class in which protected value is being modified.
      * @param mixed $property Property on instance being modified.
      * @param mixed $value New value of the property being modified.
      *

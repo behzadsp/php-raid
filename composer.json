@@ -15,17 +15,17 @@
     "squizlabs/php_codesniffer": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.0",
+    "phpunit/phpunit": "^6.0|^7.0|^8.0|^9.0",
     "cakephp/cakephp-codesniffer": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "kevinquinnyo\\Raid\\": "src"
+      "behzadsp\\Raid\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "kevinquinnyo\\Raid\\Test\\": "tests"
+      "behzadsp\\Raid\\Test\\": "tests"
     }
   },
   "scripts": {

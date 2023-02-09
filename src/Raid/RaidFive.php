@@ -1,9 +1,9 @@
 <?php
-namespace kevinquinnyo\Raid\Raid;
+namespace behzadsp\Raid\Raid;
 
 use Cake\I18n\Number;
-use kevinquinnyo\Raid\AbstractRaid;
-use kevinquinnyo\Raid\Drive;
+use behzadsp\Raid\AbstractRaid;
+use behzadsp\Raid\Drive;
 
 class RaidFive extends AbstractRaid
 {
@@ -18,7 +18,7 @@ class RaidFive extends AbstractRaid
     /**
      * Constructor.
      *
-     * @param array $drives An array of \kevinquinnyo\Raid\Drive objects to initialize the RAID with.
+     * @param array $drives An array of \behzadsp\Raid\Drive objects to initialize the RAID with.
      */
     public function __construct(array $drives = [])
     {

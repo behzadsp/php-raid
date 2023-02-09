@@ -1,9 +1,9 @@
 <?php
-namespace kevinquinnyo\Raid\Test\Raid;
+namespace behzadsp\Raid\Test\Raid;
 
 use \PHPUnit\Framework\TestCase;
-use \kevinquinnyo\Raid\Drive;
-use \kevinquinnyo\Raid\Raid\RaidTen;
+use \behzadsp\Raid\Drive;
+use \behzadsp\Raid\Raid\RaidTen;
 
 class RaidTenTest extends TestCase
 {

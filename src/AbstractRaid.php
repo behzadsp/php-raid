@@ -1,8 +1,8 @@
 <?php
-namespace kevinquinnyo\Raid;
+namespace behzadsp\Raid;
 
 use Cake\I18n\Number;
-use kevinquinnyo\Raid\Drive;
+use behzadsp\Raid\Drive;
 use RuntimeException;
 
 abstract class AbstractRaid
@@ -138,7 +138,7 @@ abstract class AbstractRaid
     /**
      * Set Drives
      *
-     * @param array $drives An array of \kevinquinnyo\Raid\Drive Drive objects to set on the RAID.
+     * @param array $drives An array of \behzadsp\Raid\Drive Drive objects to set on the RAID.
      * @return self
      */
     public function setDrives($drives)
@@ -152,7 +152,7 @@ abstract class AbstractRaid
     /**
      * Add Drive
      *
-     * @param \kevinquinnyo\Raid\Drive $drive A drive to add to the RAID.
+     * @param \behzadsp\Raid\Drive $drive A drive to add to the RAID.
      * @return self
      */
     public function addDrive(Drive $drive)
@@ -166,7 +166,7 @@ abstract class AbstractRaid
     /**
      * Add Hot Spare
      *
-     * @param \kevinquinnyo\Raid\Drive $drive A Drive to add to the list of hot spares.
+     * @param \behzadsp\Raid\Drive $drive A Drive to add to the list of hot spares.
      * @return self
      */
     public function addHotSpare(Drive $drive)
@@ -279,7 +279,7 @@ abstract class AbstractRaid
      *
      * Validate the drives in the array.
      *
-     * @param array $drives An array of \kevinquinnyo\Raid\Drive objects to validate.
+     * @param array $drives An array of \behzadsp\Raid\Drive objects to validate.
      * @throws \RuntimeException If the drives are not compatible Drive classes or they
      * have a duplicate drive identifier.
      * @return bool If the drive objects are valid.

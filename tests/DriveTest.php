@@ -1,8 +1,8 @@
 <?php
-namespace kevinquinnyo\Raid\Test;
+namespace behzadsp\Raid\Test;
 
 use \PHPUnit\Framework\TestCase;
-use \kevinquinnyo\Raid\Drive;
+use \behzadsp\Raid\Drive;
 use InvalidArgumentException;
 
 class DriveTest extends TestCase

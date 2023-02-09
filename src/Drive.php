@@ -1,5 +1,5 @@
 <?php
-namespace kevinquinnyo\Raid;
+namespace behzadsp\Raid;
 
 use Cake\I18n\Number;
 use Cake\Utility\Text;

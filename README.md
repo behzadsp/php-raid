@@ -1,11 +1,3 @@
-<p align="center">
-    <a href="https://travis-ci.com/kevinquinnyo/php-raid" target="_blank">
-        <img alt="Build Status" src="https://api.travis-ci.com/kevinquinnyo/php-raid.svg?branch=master">
-    </a>
-    <a href="https://codecov.io/github/kevinquinnyo/php-raid" target="_blank">
-        <img alt="Coverage Status" src="https://codecov.io/gh/kevinquinnyo/php-raid/branch/master/graph/badge.svg">
-    </a>
-</p>
 
 # php-raid
 ###### A general purpose RAID (Redundant Array of Independent Disks) library in PHP.
@@ -27,12 +19,12 @@ Currently compatible RAID types are:
 ## Usage
 
 To create a RAID object, you should determine which type of RAID you would like to create, and initialize
-it with an array of `\kevinquinnyo\Raid\Drive` objects.
+it with an array of `\behzadsp\Raid\Drive` objects.
 
 ```php
-use kevinquinnyo\Raid\Drive;
-use kevinquinnyo\Raid\RaidTen;
-use kevinquinnyo\Raid\RaidZero;
+use behzadsp\Raid\Drive;
+use behzadsp\Raid\RaidTen;
+use behzadsp\Raid\RaidZero;
 
 $drives = [
     new Drive('1TB', 'ssd', '61cf6218-f378-4c7b-8b81-c09e84a1a86f'),
